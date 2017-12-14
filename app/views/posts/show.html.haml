@@ -8,8 +8,8 @@
   %h2.comment_count= pluralize(@post.comments.count, "Comment")
   - @comments.each do |comment|
     .comment
-      %p.username = comment.user.name
-      %p.content = comment.content
+      %p.username= comment.user.name
+      %p.content= comment.content
 
 = render 'comments/form'
 
