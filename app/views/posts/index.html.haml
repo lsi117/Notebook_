@@ -1,11 +1,39 @@
-- @posts.each do |post|
-  = link_to (image_tag post.image.url(:thumb)), post
-  %h1= link_to post.title, post
-  %p
-    = post.comments.count
-    Comments
-  %p
-    = post.get_likes.size
-    Likes
+- if user_signed_in?
+  %p#intro
+    Hey there!
+    = current_user.name
+    %br/
+    %span
+      Start Sharing!
+      %i.fa.fa-smile-o
 
-= link_to "Add A New Helpful Resource?", new_post_path
+-else
+  %p#intro
+    Welcome to Notebook, where programmers can share helpful notes.
+    %br/
+    %span
+      Start Sharing!
+      %i.fa.fa-smile-o
+
+#posts
+  - @posts.each do |post|
+    .post
+      .post_image
+        = link_to (image_tag post.image.url(:thumb)), post
+      .post_content
+        .title
+          %h1= link_to post.title, post
+        .data.clearfix
+          %p.username
+            Shared by:
+            = post.user.name
+          %p.buttons
+            %span
+              %i.fa.fa-comments-o
+              = post.comments.count
+            %span
+              %i.fa.fa-thumbs-o-up
+              = post.get_likes.size
+            %span
+              %i.fa.fa-thumbs-o-down
+              = post.get_dislikes.size

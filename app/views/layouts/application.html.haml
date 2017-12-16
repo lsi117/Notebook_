@@ -1,8 +1,9 @@
 !!!
 %html
 %head
-  %title Notbook
+  %title Notebook
   = csrf_meta_tags
+  %link{:rel => "stylesheet", :href => "https://fonts.googleapis.com/css?family=Permanent+Marker|Reenie+Beanie"}
   %link{:rel => "stylesheet", :href => "https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"}
   %link{:rel => "stylesheet", :href => "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"}
   = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
@@ -10,16 +11,19 @@
 %body
   %header
     .wrapper.clearfix
+      %i.fa.fa-book
       #logo= link_to "Notebook", root_path
       %nav
         - if user_signed_in?
+          %i.fa.fa-user-o
           = link_to current_user.name, edit_user_registration_path
-          = link_to "Add A New Resource", new_post_path, class: "button"
+          = link_to "Share a helpful note", new_post_path, class: "button"
         - else
-          = link_to "Sign In", new_user_session_path
+          = link_to "Sign In", new_user_session_path, class: "button"
           = link_to "Sign Up", new_user_registration_path, class: "button"
   %p.notice= notice
   %p.alert= alert
 
-  = yield
+  .wrapper
+    = yield
 

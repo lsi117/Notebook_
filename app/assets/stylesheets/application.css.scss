@@ -1,0 +1,70 @@
+/*
+ *= require_self
+ */
+
+body {
+  font-family: 'Reenie Beanie', cursive;
+  font-weight: 100;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 100;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.button {
+  border: 1px solid #ffc300;
+  padding: .7rem 1.25rem;
+  border-radius: .3rem;
+  outline: none;
+  background: white;
+  color: #9B9B9B;
+}
+
+header {
+  width: 100%;
+  padding: 2rem 0;
+  border-bottom: 1px solid #ffc300;
+  #logo {
+    font-family: 'Permanent Marker', cursive;
+    float: left;
+    font-size: 2.00rem;
+    a {
+      color: #333233;
+      text-decoration: none;
+      &:hover {
+        color: #ffc300;
+      }
+    }
+  }
+  nav {
+    float: right;
+    a {
+      margin-left: 1.5rem;
+      line-height: 2;
+      color: #9B9B9B;
+      font-size: 1.25rem;
+      text-decoration: none;
+      &:hover {
+        color: #ffc300;
+      }
+    }
+  }
+}
+
+@import 'home.css.scss';
+@import 'posts.css.scss';
