@@ -6,9 +6,18 @@
   line-height: 1;
   span {
     font-size: 1.25rem;
-    color: #7289da;
+    color: #23272a;
   }
 }
+
+a {
+  text-decoration: none;
+  color: #333233;
+  &:hover {
+  color: #67D2C3;
+  }
+}
+
 #posts {
   .post {
     background: #ffffff;
@@ -32,20 +41,13 @@
         padding: 1rem 5%;
         border-bottom: 1px solid #E4E4E4;
         font-size: 1.25rem;
-        a {
-          text-decoration: none;
-          color: #333233;
-          &:hover {
-            color: #50A7C7;
-          }
-        }
       }
       .data {
         padding: .75rem 5%;
-        color: #969696;
+        color: #333233;
         .username, .buttons {
           margin: 0;
-          font-size: .8rem;
+          font-size: 2.0rem;
         }
         .username {
           float: left;

@@ -5,7 +5,7 @@
 body {
   font-family: 'Just Me Again Down Here', cursive;
   font-weight: 100;
-  background-image: url(http://www.pptbackgrounds.org/uploads/lined-paper-powerpoint-backgrounds.jpg);
+  background-image: url(http://moziru.com/images/luck-clipart-animated-20.gif);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -13,6 +13,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Permanent Marker', cursive;
   font-weight: 100;
+  margin: 5px;
+  padding: 25px;
 }
 
 .wrapper {
@@ -30,32 +32,50 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fa-book{
-  color: #7289da;
+  color: #67D2C3;
   font-size: 40px;
   margin: 5px;
 }
 
 .fa-user-o{
-  color: #7289da;
+  color: #67D2C3;
   font-size: 1.30rem;
   margin: 5px;
 }
 
 .fa-pencil{
-  color: #7289da;
+  color: #67D2C3;
+  font-size: 1.30rem;
+  margin: 5px;
+}
+
+.fa-comments-o{
+  color: #67D2C3;
+  font-size: 1.30rem;
+  margin: 5px;
+}
+
+.fa-thumbs-o-down{
+  color: #67D2C3;
+  font-size: 1.30rem;
+  margin: 5px;
+}
+
+.fa-thumbs-o-up{
+  color: #67D2C3;
   font-size: 1.30rem;
   margin: 5px;
 }
 
 .button {
-  border: 1px solid #7289da;
+  border: 1px solid #67D2C3;
   padding: .7rem 1.25rem;
   border-radius: .3rem;
   outline: none;
   background: white;
   color: #99aab5;
         &:hover {
-        color:  #7289da;
+        color:  #67D2C3;
       }
 }
 

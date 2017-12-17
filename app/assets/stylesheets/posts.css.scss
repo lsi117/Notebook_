@@ -19,10 +19,12 @@
       margin-bottom: 1rem;
       text-align: center;
       text-decoration: none;
-      color: #99aab5;
+      color: #7289da;
+      font-size: 1.8rem;
       &:hover {
-        color: #50A7C7;
-        border: 1px solid #50A7C7;
+        color: white;
+        background-color: #7289da;
+        border: 1px solid #7289da;
       }
     }
     .data {
@@ -30,7 +32,7 @@
       font-size: 1.70rem;
       display: block;
       padding: .75rem 0;
-      border-bottom: 1px solid #E9E9E9;
+      border-bottom: 5px solid transparent;
       text-decoration: none;
       color: black;
       margin: 0;
@@ -41,15 +43,12 @@
     margin-left: 5%;
     margin-top: -3.2rem;
     float: left;
-    h3 {
-      font-size: 1rem;
-    }
     .post {
-      background: #F8F9FA;
-      border: 1px solid #E4E4E4;
-      border-radius: 0.3rem;
+      background: #ffffff;
+      border: 1px solid #7289da;
+      border-radius: 0.5rem;
       .post_image {
-        height: 100px;
+        height: auto;
         overflow: hidden;
         img {
           width: 100%;
@@ -61,13 +60,13 @@
           margin: 0;
           font-weight: 100;
           padding: 1rem 5%;
-          border-bottom: 1px solid #E4E4E4;
+          border-bottom: 1px solid #7289da;
           font-size: 1.25rem;
           a {
             text-decoration: none;
             color: #333233;
             &:hover {
-              color: #50A7C7;
+              color: #99aab5;
             }
           }
         }
@@ -76,7 +75,7 @@
           color: #969696;
           .username, .buttons {
             margin: 0;
-            font-size: .8rem;
+            font-size: 1.5rem;
           }
           .username {
             float: left;
@@ -123,6 +122,7 @@
     padding: 2rem 0;
     border-bottom: 1px solid #E9E9E9;
     padding-left: 5%;
+    width: 100%;
     .username {
       font-size: 1.3rem;
       color: #333233;
