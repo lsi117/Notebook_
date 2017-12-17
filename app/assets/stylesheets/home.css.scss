@@ -1,23 +1,24 @@
 #intro {
   margin: 2.75rem 0 1.75rem 0;
   text-align: center;
-  font-size: 1.75rem;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2.00rem;
   line-height: 1;
   span {
     font-size: 1.25rem;
-    color: #9B9B9B;
+    color: #7289da;
   }
 }
 #posts {
   .post {
-    background: #F8F9FA;
+    background: #ffffff;
     width: 30%;
     float: left;
     margin: 1rem 1.5%;
-    border: 1px solid #E4E4E4;
+    border: 1px solid #7289da;
     border-radius: 0.3rem;
     .post_image {
-      height: 200px;
+      height: 100px;
       overflow: hidden;
       img {
         width: 100%;
