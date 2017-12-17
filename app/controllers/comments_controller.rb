@@ -8,7 +8,7 @@ class CommentsController < ApplicationController
     @comment.post_id = @post.id
 
     if @comment.save
-      redirect_to post_path(@post), notice: 'Please try again.'
+      redirect_to post_path(@post)
     else
       render 'new'
     end

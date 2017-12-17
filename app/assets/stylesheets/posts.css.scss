@@ -2,30 +2,47 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.fa-link{
+  color: #67D2C3;
+  font-size: 25px;
+  margin: 5px;
+}
+
 #post_show {
   padding-top: 2rem;
   .post_image_description {
+    background-color:rgba(255,255,255, 0.7);
+    border-radius: 10px;
     width: 50%;
     float: left;
     margin-right: 5%;
+    p{
+      font-size: 35px;
+}
   }
   .post_data {
     width: 15%;
     float: left;
-    .button {
-      width: 100%;
-      display: inline-block;
-      padding: .75rem 0;
-      margin-bottom: 1rem;
-      text-align: center;
-      text-decoration: none;
-      color: #7289da;
-      font-size: 1.8rem;
-      &:hover {
-        color: white;
-        background-color: #7289da;
-        border: 1px solid #7289da;
-      }
+    font-size: 1.5rem;
+    background-color:rgba(255,255,255, 0.7);
+    border: 1px solid #67D2C3;
+    border-radius: 0.5rem;
+    padding: 5px;
+    // .button {
+    //   width: 100%;
+    //   display: inline-block;
+    //   padding: .75rem 0;
+    //   margin-bottom: 1rem;
+    //   text-align: center;
+    //   text-decoration: none;
+    //   color:  #67D2C3;
+    //   font-size: 2.0rem;
+    //   font-weight: bolder;
+      // &:hover {
+      //   color: white;
+      //   background-color:  #67D2C3;
+      //   border: 1px solid  #67D2C3;
+      // }
     }
     .data {
       width: 100%;
@@ -36,16 +53,19 @@
       text-decoration: none;
       color: black;
       margin: 0;
+            &:hover {
+        color: #67D2C3;
+        font-size: 35px;
+        cursor: pointer;
+      }
     }
   }
   #random_post {
     width: 25%;
-    margin-left: 5%;
-    margin-top: -3.2rem;
-    float: left;
+    float: right;
     .post {
       background: #ffffff;
-      border: 1px solid #7289da;
+      border: 1px solid #67D2C3;
       border-radius: 0.5rem;
       .post_image {
         height: auto;
@@ -57,22 +77,23 @@
       }
       .post_content {
         h2 {
+          overflow: hidden;
           margin: 0;
           font-weight: 100;
           padding: 1rem 5%;
-          border-bottom: 1px solid #7289da;
+          border-bottom: 1px solid #67D2C3;
           font-size: 1.25rem;
           a {
             text-decoration: none;
             color: #333233;
             &:hover {
-              color: #99aab5;
+              color: #67D2C3;
             }
           }
         }
         .data {
           padding: .75rem 5%;
-          color: #969696;
+          color: #333233;
           .username, .buttons {
             margin: 0;
             font-size: 1.5rem;
@@ -81,7 +102,7 @@
             float: left;
           }
           .buttons {
-            float: right;
+            float: left;
             span {
               margin-left: .5rem;
             }
@@ -99,28 +120,32 @@
     border-radius: .3rem;
   }
   .username {
-    color: #969696;
+    color: #333233;
     margin: 0 0 1.5rem 0;
+    font-size: 2.00rem;
   }
   .description {
     margin: 2rem 0;
     font-size: 1.1rem;
     line-height: 1.5;
-    color: #969696;
+    color: #333233;
   }
-}
+
 
 #comments {
   padding-bottom: 4rem;
   width: 50%;
+  background-color:rgba(255,255,255, 0.8);
+  border-radius: 0.5rem;
   .comment_count {
-    border-bottom: 1px solid #E9E9E9;
+    border-bottom: 1px solid #67D2C3;
     padding-bottom: .5rem;
     margin-bottom: 0;
   }
   .comment {
+    font-size: 25px;
     padding: 2rem 0;
-    border-bottom: 1px solid #E9E9E9;
+    border-bottom: 1px solid #67D2C3;
     padding-left: 5%;
     width: 100%;
     .username {
@@ -130,18 +155,22 @@
     }
     .content {
       margin: 0;
-      color: #969696;
+      color: #333233;
     }
   }
   .comment_content {
     margin-top: 2.5rem;
-    textarea {
-      width: 100%;
-      margin: 1rem 0;
-      min-height: 150px;
-      border: 1px solid #E4E4E4;
-      background: #F8F9FA;
-      border-radius: 0.3rem;
-    }
   }
 }
+
+
+    textarea {
+      color: #333233;
+      font-family: 'Just Me Again Down Here', cursive;
+      font-size: 25px;
+      width: 90%;
+      margin: 1rem 0;
+      min-height: 150px;
+      border: 1px solid #67D2C3;
+      border-radius: 0.3rem;
+    }

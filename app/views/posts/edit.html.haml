@@ -1,3 +1,5 @@
-%h1 Edit Resource
-
-= render 'form'
+.wrapper
+  %h1 Edit this note
+  = render 'form'
+  #post_show
+  = link_to "Go back", post_path(@post), class: "button"
