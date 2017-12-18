@@ -47,6 +47,9 @@ This is when the user is filling out a form to make a new post:
 
 ![alternateText](https://github.com/lsi117/Notebook_/blob/master/Notebook%203.png)
 
+## Models Chart
+
+[PDF of Model Chart Diagram](https://github.com/lsi117/Notebook_/blob/master/erd.pdf)
 
 ---
 
