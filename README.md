@@ -3,6 +3,10 @@ This will be a notebook that will hold helpful links to programming sources. I w
 
 ![alternateText](https://media.giphy.com/media/xT9IgsAZTS0OKXWIQo/giphy.gif)
 
+![alternateText](https://github.com/lsi117/Notebook_/blob/master/Notebook%202.png)
+
+![alternateText](https://github.com/lsi117/Notebook_/blob/master/Notebook%203.png)
+
 ---
 
 ## MVP
