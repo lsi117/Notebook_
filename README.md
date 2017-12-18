@@ -3,10 +3,6 @@ This will be a notebook that will hold helpful links to programming sources. I w
 
 ![alternateText](https://media.giphy.com/media/xT9IgsAZTS0OKXWIQo/giphy.gif)
 
-![alternateText](https://github.com/lsi117/Notebook_/blob/master/Notebook%202.png)
-
-![alternateText](https://github.com/lsi117/Notebook_/blob/master/Notebook%203.png)
-
 ---
 
 ## MVP
@@ -33,9 +29,15 @@ Jane is starting a rigorous web development program where she will be learning t
 
 ## Wireframes
 
+This is the Users view when they are signed in:
+
 ![alternateText](https://github.com/lsi117/Notebook_/blob/master/Notebook%20index.png)
 
+This is when the user clicks on a post:
+![alternateText](https://github.com/lsi117/Notebook_/blob/master/Notebook%202.png)
 
+This is when the user is filling out a form to make a new post:
+![alternateText](https://github.com/lsi117/Notebook_/blob/master/Notebook%203.png)
 
 
 ---
