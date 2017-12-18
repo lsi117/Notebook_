@@ -36,6 +36,8 @@ gem 'paperclip', '~> 5.1'
 
 gem 'acts_as_votable', '~> 0.11.1'
 
+gem 'rails-erd', require: false, group: :development
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
