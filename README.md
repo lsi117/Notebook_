@@ -16,6 +16,8 @@ My Minimal Viable Product will be an app called Notebook. Notebook is an app whe
 Post MVP: 
 I would really like to work on extra bells and whistles: Maybe instead of JUST user auth I could somehow create a switch(like on the iphone) where a user can switch and then enter a series of numbers for their password. If correct, then sends them to the user sign in page view, if not, then it reloads and possibly does an animation of a message "Incorrect". I think that would be a really neat feature.
 
+I've been able to add uploading pictures, paperclip which has helped with the picture uploading. It's a cool feature, but honestly the app doesn't need this to really function, I just figured it would be a cool feature that would be neat if it was availible if the user wanted to tack along a picture with their post.
+
 Reach Goals: 
 I would not only like to add the personal touch of adding some user authentication, but explore more of my skills in CSS. I really like anything to do with security, it really peaks my interest and it's an area I would like to improve my skills on, so i'll push myself to do that. Also, I want to try and work on more of my css, so maybe try to take my styling to the next level by animating stuff. Ultimate goal is to have something that is functional and also pretty.
 
