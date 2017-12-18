@@ -6,7 +6,7 @@
   %link{:rel => "stylesheet", :href => "https://fonts.googleapis.com/css?family=Permanent+Marker|Just+Me+Again+Down+Here"}
   %link{:rel => "stylesheet", :href => "https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"}
   %link{:rel => "stylesheet", :href => "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"}
-  %link{:rel => "icon", :href => "../../assets/images/favicon.ico"}
+  %link{:rel => "icon", :href => "favicon.ico"}
   = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
   = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
 %body
@@ -17,6 +17,7 @@
       %nav
         - if user_signed_in?
           = link_to current_user.name, edit_user_registration_path, class: "hvr-bob"
+          = link_to 'Logout', destroy_user_session_path, method: :delete, class: "hvr-bob"
           %i.fa.fa-user-o
           = link_to "Share a helpful note", new_post_path, class: "hvr-bob"
           %i.fa.fa-pencil
