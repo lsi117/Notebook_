@@ -29,7 +29,7 @@ Jane is starting a rigorous web development program where she will be learning t
 
 ## Wireframes
 
-![alternateText](https://drive.google.com/file/d/1PHvA6JOOcVtfYbHYUCuQ72q3ElsJ9Djo/view?usp=sharing)
+![alternateText](https://github.com/lsi117/Notebook_/blob/master/Notebook%20index.png)
 
 
 
