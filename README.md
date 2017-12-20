@@ -49,7 +49,7 @@ This is when the user is filling out a form to make a new post:
 
 ## Models Chart
 
-![alternateText](https://github.com/lsi117/Notebook_/blob/master/erd.pdf)
+![PDF of Model Chart Diagram](https://github.com/lsi117/Notebook_/blob/master/erd.pdf)
 
 ---
 
