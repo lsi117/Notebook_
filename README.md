@@ -49,7 +49,7 @@ This is when the user is filling out a form to make a new post:
 
 ## Models Chart
 
-[PDF of Model Chart Diagram](https://github.com/lsi117/Notebook_/blob/master/erd.pdf)
+![PDF of Model Chart Diagram](https://github.com/lsi117/Notebook_/blob/master/erd.pdf)
 
 ---
 
@@ -59,7 +59,7 @@ The technologies that I will be using are anything to do with a fullstack ruby a
 
 ## Timeline
 
-As soon as my proposal is approved I plan to do a little bit of the set up today and to get a majority of the project work done tomorrow, since it's a half day. After that I want to put as much work into it as I can and plan to finish sometime during the weekend. I always like to finish a bit early, IF I can because then I can work out any kinks that go wrong with the project.
+My timeline begins as researching what exactly I could build and what it would be used for. Then I ended up sketching out(in my wireframes) what exactly my app will need, this is the basic outine that I aim to complete. Then, once I complete the basic outline and structure of what my app consists of I start to outline what else my app needs, maybe some extra bells and whistles. After all of this, I start to test out my app, since I try to finish everything ahead of time, this is when I do extensive testing and figure out what exactly is wrong or what I could have done better. I make those changes and then start to work on the styling. Lastly, one last check around the app to see if anything else is wrong.
 
 ## Challenges
 
